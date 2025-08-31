@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    /* background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/12/Color-Splash-HD-Wallpaper.jpg); */
+    background-image: url(wp10092942-dark-4k-pc-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.logo-container img{
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-top: 10px;
+    height: 60px;
+    width: 60px;
+}
+@media(max-width:360px){
+        .detail-container h1{
+            /* font-size: 10px ; */
+            background-color: red;
+        }
+        .logo-container {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        section .detail-container{
+           display: block;
+           justify-content: center;
+           height: 60%;
+           width: 280px;
+           background: transparent;
+           border: 1px solid #aa00ff;
+        }
+        section{
+            height: 100vh;
+            width: 100%;
+        }
+
+}
+h1{
+    text-align: center;
+    margin-top: 45px;
+    font-size: 35px;
+    font-weight: bold;
+    background:linear-gradient(to right, red, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+h1.icon{
+    margin-top: 5px;
+
+}
+.detail-container{
+    border: 2px solid red;
+    height: 450px;
+    text-align: center;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 12px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+input{
+    all: unset;
+    padding: 15px;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.088);
+    transition: border.3s ease-in-out;
+
+}
+.username{
+    margin-top: 55px;
+}
+.password{
+    margin-top: 35px;
+    text-align: center;
+}
+input::placeholder{
+    font-size: .9rem;
+
+}
+input:focus{
+    border-color:#aa00ff ;
+}
